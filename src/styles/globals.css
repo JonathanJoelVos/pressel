@@ -18,10 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-gray-100 text-gray-800
+}
+
+.bg-hero-image{
+  background-image: radial-gradient(circle at 30% 54%, #eafbfa, #8fbeb7 24%, #61a999 57%, #33af93 62%);
 }
